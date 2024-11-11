@@ -1,8 +1,11 @@
 // Sample data for books with images
 const books = [
     { id: 1, title: "Book 1", price: 10.99, image: "images/al.jpg" },
-    { id: 2, title: "Book 2", price: 12.99, image: "images/Mystery.jpg" },
-    { id: 3, title: "Book 3", price: 15.99, image: "images/horror.jpg" }
+    { id: 2, title: "Book 2", price: 11, image: "images/Mystery.jpg" },
+    { id: 3, title: "Book 3", price: 15.99, image: "images/horror.jpg" },
+    { id: 3, title: "Book 4", price: 12.99, image: "images/Novels.jpg" },
+    { id: 3, title: "Book 5", price: 14, image: "images/Selfimp.jpg" },
+    { id: 3, title: "Book 6", price: 11, image: "images/Fantasy.jpg" }
 ];
 
 const cart = [];
