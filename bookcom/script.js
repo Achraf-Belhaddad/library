@@ -18,7 +18,7 @@ function loadBooks() {
         bookItem.className = 'book-item';
         bookItem.innerHTML = `
             <img src="${book.image}" alt="${book.title}">
-            <h3>${book.title}</h3>
+            <h3 class="TXT-COLOR">${book.title}</h3>
             <p>Price: $${book.price}</p>
             <button onclick="addToCart(${book.id})">Add to Cart</button>
         `;
